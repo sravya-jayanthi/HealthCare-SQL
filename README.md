@@ -1,21 +1,13 @@
 # HealthCare-SQL
-![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-[![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/ndleah)
-[![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/ndleah?tab=repositories)
-
-# Health Analytics Case Study <img src="/IMG/pngwing.com.png" align="right" width="120" />
-
 >
 > 
 ## 📕 **Table of contents**
 <!--ts-->
-   * 🛠️ [Overview](#️-overview)
-   * 🚀 [Solutions](#-solutions)
-   * 💻 [Key Highlights](#-key-highlight)
+   * [Overview](#️-overview)
+   * [Solutions](#-solutions)
+   * [Key Highlights](#-key-highlight)
 
 
-## 🛠️ Overview
 With the **Health Analytics Mini Case Study**, I queried data to bring insights to the following questions:
 1. How many `unique users` exist in the logs dataset?
 2. How many total `measurements` do we have `per user on average`?
@@ -28,8 +20,6 @@ With the **Health Analytics Mini Case Study**, I queried data to bring insights 
 9. What is the `median systolic/diastolic` **blood pressure** values?
 
 ---
-## 🚀 Solutions
-
 ![Question 1](https://img.shields.io/badge/Question-1-971901)
 ### **How many unique users exist in the logs dataset?**
 ```sql
@@ -175,7 +165,7 @@ WHERE measure = 'blood_pressure';
 |---------------|----------------|
 |126            |79              |
 ---
-## 💻 Key Highlight
+
 > **Initial thoughts:** 
 Even though this is a short assignment which cover basic SQL syntax, I did run into problems several time during the solving process. However, it helped me to have a better understanding about data exploration using SQL from theories to real life application.
 
